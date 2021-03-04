@@ -1,0 +1,24 @@
+.container{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  padding-top: 8vw;
+}
+
+
+.about__img img{
+  width:30vw;
+  height:60vh;
+ margin-right: 10vw;
+ border-radius: .5vw;
+}
+
+.about__text-container{
+  padding-left: 5vh;
+}
+
+.about__subtitle{
+  font-size: 1.8vw;
+  margin-bottom: 5vh;
+}
+
+.section-title{width:8vw;}

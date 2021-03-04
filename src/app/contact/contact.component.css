@@ -1,0 +1,41 @@
+.contact__container{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 10vh;
+}
+
+.contact__form{
+  display: flex;
+  flex-direction: column;
+}
+
+.contact__input{
+  border:1px solid black;
+  border-radius: .4vw;
+  width:30vw;
+  padding: .7vw;
+  margin-bottom: 4vh;
+
+}
+
+.contact__button{
+  width:8vw;
+  background-color: #33cccc;
+  padding:.8vw;
+  border-radius: .5vw;
+  color: white;
+  margin-left: 12.5vw;
+}
+
+.contact__button:hover{
+  box-shadow: 0 10px 36px rgba(0,0,0,.15);
+}
+
+.section-title{width:10.5vw;}
+
+@media only screen and (max-width:1262px){
+  .contact__button{
+    margin-bottom: 10vh;
+  }
+}

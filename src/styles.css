@@ -1,0 +1,38 @@
+/* You can add global styles to this file, and also import other style files */
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap");
+
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-family: 'Poppins', sans-serif;
+  font-size: 1.3vw;
+
+}
+
+body{
+   background-color: rgba(247, 247, 247, 1);
+}
+
+.section{
+  height:100vh;
+  margin-top:10vh;
+  padding-right: 10vw;
+  padding-left:10vw;
+
+}
+
+.section-title{
+  font-size: 2.5vw;
+  margin-left:35vw;
+  color:#33cccc;
+  border-bottom: .3vw solid #33cccc;
+}
+
+
+@media only screen and (max-width:1262px){
+  .section{
+    height:auto;
+  }
+}
