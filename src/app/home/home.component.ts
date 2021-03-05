@@ -12,4 +12,13 @@ export class HomeComponent implements OnInit {
   ngOnInit(): void {
   }
 
+  toContact(){
+   const element = document.getElementById('contact');
+    const yOffset = -100;
+    if(element !==null){
+      const y = element.getBoundingClientRect().top + window.pageYOffset + yOffset;
+       window.scrollTo({top: y, behavior: 'smooth'});
+  }
+}
+
 }

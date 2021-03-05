@@ -22,3 +22,8 @@
 }
 
 .section-title{width:8vw;}
+
+.about__subtitle,
+.about__text{
+  font-style: italic;
+}

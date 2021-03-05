@@ -44,6 +44,7 @@
   border-radius: .5vw;
   background-color: #33cccc;
   color:white;
+  outline: none;
 }
 
 .button:hover{

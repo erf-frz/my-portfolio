@@ -25,7 +25,8 @@
   padding:.8vw;
   border-radius: .5vw;
   color: white;
-  margin-left: 12.5vw;
+  margin-left: 12vw;
+  outline: none;
 }
 
 .contact__button:hover{

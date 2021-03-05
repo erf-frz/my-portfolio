@@ -3,11 +3,21 @@
   <h2 class="section-title">Contact</h2>
 
   <div class="contact__container">
-    <form action="" class="contact__form">
-      <input type="text" placeholder="Name" class="contact__input">
-      <input type="mail" placeholder="Email" class="contact__input">
-      <textarea name="" id="" placeholder="message" cols="0" rows="10" class="contact__input"></textarea>
-      <input type="button" value="Submit" class="contact__button button">
+    <form [formGroup]="formData" (ngSubmit)="onSubmit(formData.value)" class="contact__form">
+
+      <input type="text" placeholder="Name" class="contact__input"
+      formControlName="Fullname"
+      name="Fullname">
+
+      <input type="email" placeholder="Email" class="contact__input"
+      formControlName="Email"
+      name="Email">
+
+      <textarea placeholder="Your message" cols="0" rows="10" class="contact__input"
+      formControlName="Comment"
+      name="Comment"></textarea>
+
+      <button type="submit" class="contact__button button"[disabled]="!formData.valid">Submit</button>
     </form>
   </div>
 </section>
