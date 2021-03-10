@@ -5,14 +5,19 @@
       <img class="nav__logo" src="../assets/E Logo.png">
     </div>
 
-    <div class="nav__menu" id="nav-menu">
-      <ul class="nav__list">
+    <div class="nav__menu">
+      <ul class="nav__list" id="nav-list">
         <li class="nav__item"><a routerLink="/home" routerLinkActive="active" class="nav__link" (click)="toHome()">Home</a></li>
         <li class="nav__item"><a routerLink="/about" routerLinkActive="active" class="nav__link" (click)="toAbout()">About</a></li>
         <li class="nav__item"><a routerLink="/skills" routerLinkActive="active" class="nav__link" (click)="toSkills()">Skills</a></li>
         <li class="nav__item"><a routerLink="/work" routerLinkActive="active" class="nav__link" (click)="toWork()">Work</a></li>
         <li class="nav__item"><a routerLink="/contact" routerLinkActive="active" class="nav__link" (click)="toContact()">Contact</a></li>
       </ul>
+    </div>
+    <div class="burger">
+      <div class="line line1"></div>
+      <div class="line line2"></div>
+      <div class="line line3"></div>
     </div>
   </nav>
 </header>
