@@ -91,4 +91,25 @@
     margin-top: 5vh;
   }
 
+  @media only screen and (max-width:720px){
+    .home{
+      width:100vw;
+      height:50vh;
+    }
+
+    .home__top{
+      margin-top: -10vh;
+    }
+  }
+
+  @media only screen and (max-width:500px){
+    .home{
+      height: 35vh;
+    }
+
+    .home__top{
+      margin-top: -15vh;
+    }
+  }
+
 }

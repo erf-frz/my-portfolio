@@ -53,19 +53,4 @@ export class AppComponent implements AfterViewInit {
 }
   }
 
-  // displayMenu(){
-  //   let menuIcon = document.getElementsByClassName('bx-menu');
-  //   let navList = document.getElementById('nav-list');
-  //   if(navList){
-  //     if(navList.style.display === 'none'){
-  //       navList.style.display = 'inline-block';
-  //       // menuIcon.classList.remove('bx-menu');
-  //       // menuIcon.classList.add('bx-x');
-  //     }else if(navList.style.display = 'inline-block'){
-  //       navList.style.display = 'none';
-  //     }
-  //   }
-  // }
-
-
 }
